@@ -1,6 +1,41 @@
+
+.vv {
+  background-color: #282c34;
+  min-height: 100vh;
+  margin-left: 450;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.con{
+  margin-top: 5%;
+  padding-left: 35%;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.profession {
+  font-style: bold;
+  font-size: bold;
+
+}
 .App {
   text-align: center;
+  background-image: url('https://www.imf.org/-/media/Images/IMF/News/Blogs/2021/BLOG-USDollar-MicroStockHub-570.ashx');
+  width: auto;
+  height: 625px;
+  margin-top: 0%;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: sticky;
+
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +71,11 @@
     transform: rotate(360deg);
   }
 }
+
+
+.btn{
+  margin-left: 10%;
+}
+
+
+
